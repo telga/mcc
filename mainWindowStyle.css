@@ -1,0 +1,48 @@
+#text-in, #output{
+    width: 250px;
+    margin: auto;
+}
+
+input {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#text-in input{
+    float: right;
+    width: 50%;
+    background-color: #32302F;
+    border: 1px solid wheat;
+    caret-color: wheat;
+    color: #9cfffe;
+}
+
+#output input{
+    float: right;
+    width: 50%;
+    background-color: #32302F;
+    border: 1px solid wheat;
+    caret-color: wheat;
+    color: #e6abff;
+}
+
+label {
+    color: wheat;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input:focus {
+    outline: none;
+}
+
+hr {
+    width: 280px;
+    border: 1px solid wheat;
+}
+
+body {
+    background-color: #32302F;
+}
+
+::selection {
+    background: #444241;
+}
